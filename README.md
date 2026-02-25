@@ -45,5 +45,4 @@ python predict.py
 - Ensure dataset path is correct before training
 - Model can be replaced with advanced NLP models
 
-## License
-MIT (or specify your license)
+
