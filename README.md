@@ -30,7 +30,8 @@ Research-topic-prediction-main/
 pip install -r requirements.txt
 ```
 
-## Run 
+## Usage
+Run using the command line:
 ```bash
 python main.py
 ```
