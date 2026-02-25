@@ -18,10 +18,9 @@ A machine learning–based project that predicts **research topics** from input 
 ```
 Research-topic-prediction-main/
 ├── main.py                 # Entry point
-├── train.py                # Model training
-├── predict.py              # Topic prediction logic
-├── dataset/                # Research text dataset
-├── model.pkl               # Trained model
+├── train.csv               # Model training csv file
+├── test.csv                # Model testing csv file
+├── submission.csv          # output dataset
 ├── requirements.txt        # Dependencies
 └── README.md
 ```
@@ -31,14 +30,9 @@ Research-topic-prediction-main/
 pip install -r requirements.txt
 ```
 
-## Train Model
+## Run 
 ```bash
-python train.py
-```
-
-## Predict Topic
-```bash
-python predict.py
+python main.py
 ```
 
 ## Notes
